@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: black;
+}
+
+.nav-item {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.navbar-custom {
+  background-color: rgb(126, 255, 236);
+}
+.navbar-custom img {
+  margin-left: 60px;
+}
+.navbar-custom a {
+  color: rgb(238, 0, 0);
+  font-weight: bold;
+}
+.navbar-custom a:hover {
+  color: rgb(45, 166, 48);
+}
+
+.fonelist {
+  text-align: center;
+  margin: 50px 100px;
+}
+.fonelist .our {
+  font-size: 30px;
+}
+.fonelist hr {
+  border: 2px solid red;
+  margin: auto;
+  width: 120px;
+}
+.fonelist .container-fluid {
+  margin-top: 50px;
+}
+.fonelist .container-fluid .col-md-2 {
+  padding: 10px;
+  border: 1px solid rgba(126, 255, 236, 0.679);
+}
+.fonelist .container-fluid .col-md-2 img {
+  padding: 10px;
+  width: 100px;
+}
+@media (min-width: 768px) and (max-width: 866px) {
+  .fonelist .container-fluid .col-md-2 img {
+    width: 80px;
+  }
+}
+.fonelist .container-fluid .col-md-2 p {
+  font-size: 20px;
+  color: rgb(238, 0, 0);
+}/*# sourceMappingURL=style.css.map */
