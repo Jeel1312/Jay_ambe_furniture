@@ -1,4 +1,5 @@
 $dark-bg : rgb(238, 0, 0);
+$nav: rgba(126, 255, 236);
 
 
 * {
@@ -15,7 +16,7 @@ $dark-bg : rgb(238, 0, 0);
 }
 
 .navbar-custom {
-    background-color: rgb(126, 255, 236);
+    background-color: $nav;
 
     img {
         margin-left: 60px;
@@ -37,6 +38,7 @@ $dark-bg : rgb(238, 0, 0);
 
     .our {
         font-size: 30px;
+        font-weight: bold;
     }
 
     hr {
@@ -65,6 +67,209 @@ $dark-bg : rgb(238, 0, 0);
                 font-size: 20px;
                 color: $dark-bg;
             }
+        }
+    }
+}
+
+.newarrivial {
+    display: flex;
+    text-align: center;
+
+    @media (max-width: 1050px) {
+        flex-wrap: wrap;
+    }
+
+    .youtube {
+        flex: 50%;
+        padding: 20px;
+        padding-left: 80px;
+
+        @media (max-width: 1050px) {
+            padding: 20px;
+        }
+
+        @media (max-width: 650px) {
+            iframe {
+                width: 80vh;
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 380px) {
+            iframe {
+                width: 60vh;
+                height: 300px;
+            }
+        }
+    }
+
+    .detail {
+        flex: 50%;
+        padding-right: 80px;
+
+        .new {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        hr {
+            border: 2px solid red;
+            margin: auto;
+            width: 120px;
+        }
+
+        p {
+            flex-wrap: wrap;
+            margin-top: 30px;
+            text-align: justify;
+        }
+
+        @media (max-width: 1050px) {
+            padding: 20px 100px;
+        }
+
+        @media (max-width: 650px) {
+            padding: 20px;
+        }
+    }
+}
+
+.beautiful {
+    .products {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    hr {
+        border: 2px solid red;
+        margin: auto;
+        width: 120px;
+        margin-bottom: 30px;
+    }
+
+    .menu {
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+        }
+
+        div {
+            background-color: rgb(233, 231, 231);
+            text-align: center;
+            width: 200px;
+            margin: 15px;
+            height: 220px;
+            border-radius: 10px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            img {
+                border-radius: 10px 10px 0px 0px;
+                width: 200px;
+                height: 160px;
+            }
+
+            p {
+                color: rgb(170, 0, 0);
+                margin: 15px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+        }
+    }
+}
+
+.review {
+    background-color: rgb(100, 100, 100);
+    margin-top: 20px;
+
+    p {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+
+    hr {
+        border: 2px solid red;
+        margin: auto;
+        width: 120px;
+        margin-bottom: 30px;
+    }
+}
+
+#carouselExampleControls {
+    padding: 0px 50px 50px;
+}
+
+.carousel {
+    text-align: center;
+
+    .carousel-item {
+        background-color: rgb(100, 100, 100);
+    }
+
+    img {
+        width: 300px;
+    }
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+
+    .footer {
+        display: flex;
+
+        div {
+            margin: 30px;
+            width: 300px;
+
+            .he {
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            i {
+                color: white;
+            }
+
+            p {
+                color: white;
+            }
+        }
+
+        .about {
+            flex: 40%;
+            text-align: justify;
+        }
+
+        .navigation {
+            flex: 20%;
+        }
+
+        .contact {
+            flex: 40%;
+        }
+        @media (max-width : 800px) {
+            flex-wrap: wrap;
+        }
+    }
+    .map{
+        text-align: center;
+        iframe{
+            width: 90%;
+            height: 300px;
         }
     }
 }

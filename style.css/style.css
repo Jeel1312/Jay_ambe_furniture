@@ -30,6 +30,7 @@
 }
 .fonelist .our {
   font-size: 30px;
+  font-weight: bold;
 }
 .fonelist hr {
   border: 2px solid red;
@@ -55,4 +56,184 @@
 .fonelist .container-fluid .col-md-2 p {
   font-size: 20px;
   color: rgb(238, 0, 0);
+}
+
+.newarrivial {
+  display: flex;
+  text-align: center;
+}
+@media (max-width: 1050px) {
+  .newarrivial {
+    flex-wrap: wrap;
+  }
+}
+.newarrivial .youtube {
+  flex: 50%;
+  padding: 20px;
+  padding-left: 80px;
+}
+@media (max-width: 1050px) {
+  .newarrivial .youtube {
+    padding: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .newarrivial .youtube iframe {
+    width: 80vh;
+    height: 300px;
+  }
+}
+@media (max-width: 380px) {
+  .newarrivial .youtube iframe {
+    width: 60vh;
+    height: 300px;
+  }
+}
+.newarrivial .detail {
+  flex: 50%;
+  padding-right: 80px;
+}
+.newarrivial .detail .new {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.newarrivial .detail hr {
+  border: 2px solid red;
+  margin: auto;
+  width: 120px;
+}
+.newarrivial .detail p {
+  flex-wrap: wrap;
+  margin-top: 30px;
+  text-align: justify;
+}
+@media (max-width: 1050px) {
+  .newarrivial .detail {
+    padding: 20px 100px;
+  }
+}
+@media (max-width: 650px) {
+  .newarrivial .detail {
+    padding: 20px;
+  }
+}
+
+.beautiful .products {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.beautiful hr {
+  border: 2px solid red;
+  margin: auto;
+  width: 120px;
+  margin-bottom: 30px;
+}
+.beautiful .menu {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.beautiful .menu a {
+  text-decoration: none;
+}
+.beautiful .menu div {
+  background-color: rgb(233, 231, 231);
+  text-align: center;
+  width: 200px;
+  margin: 15px;
+  height: 220px;
+  border-radius: 10px;
+}
+.beautiful .menu div:hover {
+  transform: scale(1.1);
+}
+.beautiful .menu div img {
+  border-radius: 10px 10px 0px 0px;
+  width: 200px;
+  height: 160px;
+}
+.beautiful .menu div p {
+  color: rgb(170, 0, 0);
+  margin: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.review {
+  background-color: rgb(100, 100, 100);
+  margin-top: 20px;
+}
+.review p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.review hr {
+  border: 2px solid red;
+  margin: auto;
+  width: 120px;
+  margin-bottom: 30px;
+}
+
+#carouselExampleControls {
+  padding: 0px 50px 50px;
+}
+
+.carousel {
+  text-align: center;
+}
+.carousel .carousel-item {
+  background-color: rgb(100, 100, 100);
+}
+.carousel img {
+  width: 300px;
+}
+
+footer {
+  padding: 20px;
+  background-color: black;
+}
+footer .footer {
+  display: flex;
+}
+footer .footer div {
+  margin: 30px;
+  width: 300px;
+}
+footer .footer div .he {
+  font-size: 24px;
+  font-weight: bold;
+}
+footer .footer div i {
+  color: white;
+}
+footer .footer div p {
+  color: white;
+}
+footer .footer .about {
+  flex: 40%;
+  text-align: justify;
+}
+footer .footer .navigation {
+  flex: 20%;
+}
+footer .footer .contact {
+  flex: 40%;
+}
+@media (max-width: 800px) {
+  footer .footer {
+    flex-wrap: wrap;
+  }
+}
+footer .map {
+  text-align: center;
+}
+footer .map iframe {
+  width: 90%;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */
