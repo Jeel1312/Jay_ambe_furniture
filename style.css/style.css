@@ -16,6 +16,11 @@
 .navbar-custom img {
   margin-left: 60px;
 }
+@media (max-width: 500px) {
+  .navbar-custom img {
+    margin: auto;
+  }
+}
 .navbar-custom a {
   color: rgb(238, 0, 0);
   font-weight: bold;
@@ -36,6 +41,7 @@
   border: 2px solid red;
   margin: auto;
   width: 120px;
+  border-radius: 10px;
 }
 .fonelist .container-fluid {
   margin-top: 50px;
@@ -79,13 +85,13 @@
 }
 @media (max-width: 650px) {
   .newarrivial .youtube iframe {
-    width: 80vh;
+    width: 60vh;
     height: 300px;
   }
 }
 @media (max-width: 380px) {
   .newarrivial .youtube iframe {
-    width: 60vh;
+    width: 50vh;
     height: 300px;
   }
 }
@@ -102,6 +108,7 @@
   border: 2px solid red;
   margin: auto;
   width: 120px;
+  border-radius: 10px;
 }
 .newarrivial .detail p {
   flex-wrap: wrap;
@@ -129,6 +136,7 @@
   margin: auto;
   width: 120px;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 .beautiful .menu {
   margin: 10px;
@@ -178,6 +186,7 @@
   margin: auto;
   width: 120px;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 #carouselExampleControls {
@@ -195,6 +204,7 @@
 }
 
 footer {
+  position: relative;
   padding: 20px;
   background-color: black;
 }
@@ -211,8 +221,10 @@ footer .footer div .he {
 }
 footer .footer div i {
   color: white;
+  margin: 10px;
 }
 footer .footer div p {
+  margin: 0%;
   color: white;
 }
 footer .footer .about {
@@ -221,6 +233,9 @@ footer .footer .about {
 }
 footer .footer .navigation {
   flex: 20%;
+}
+footer .footer .navigation a {
+  text-decoration: none;
 }
 footer .footer .contact {
   flex: 40%;
@@ -236,4 +251,184 @@ footer .map {
 footer .map iframe {
   width: 90%;
   height: 300px;
+}
+
+.sections {
+  padding: 50px 50px 10px;
+  text-align: center;
+}
+.sections p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.sections hr {
+  border: 2px solid red;
+  margin: auto;
+  width: 120px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.sections img {
+  margin: 20px;
+  border: 1px solid gray;
+  width: 350px;
+  height: 250px;
+}
+
+.about {
+  margin: 30px 0px 50px;
+}
+.about .new {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.about hr {
+  border: 2px solid red;
+  margin: auto;
+  width: 120px;
+  border-radius: 10px;
+}
+.about .d {
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+}
+@media (max-width: 1050px) {
+  .about .d {
+    flex-wrap: wrap;
+  }
+}
+.about .d .youtube {
+  flex: 50%;
+  padding: 20px;
+  padding-left: 80px;
+}
+@media (max-width: 1050px) {
+  .about .d .youtube {
+    padding: 20px;
+    width: 60vh;
+  }
+}
+@media (max-width: 650px) {
+  .about .d .youtube iframe {
+    width: 60vh;
+    height: 300px;
+  }
+}
+@media (max-width: 380px) {
+  .about .d .youtube iframe {
+    width: 50vh;
+    height: 300px;
+  }
+}
+.about .d .detail {
+  flex: 60%;
+  padding: 0px 80px 0px 20px;
+}
+.about .d .detail p {
+  margin-top: 30px;
+  text-align: justify;
+}
+@media (max-width: 1050px) {
+  .about .d .detail {
+    padding: 20px 100px;
+  }
+}
+@media (max-width: 650px) {
+  .about .d .detail {
+    padding: 0px 40px;
+  }
+}
+
+.contact_us {
+  margin: 30px 150px 60px;
+}
+@media (max-width: 1200px) {
+  .contact_us {
+    margin: 30px 50px 60px;
+  }
+}
+@media (max-width: 500px) {
+  .contact_us {
+    margin: 30px 20px 60px;
+  }
+}
+.contact_us .con {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact_us .hr {
+  border: 2px solid red;
+  margin: auto;
+  width: 120px;
+  border-radius: 10px;
+}
+.contact_us .d {
+  display: flex;
+}
+@media (max-width: 800px) {
+  .contact_us .d {
+    flex-wrap: wrap;
+  }
+}
+.contact_us .d .shop_detail {
+  margin: 20px;
+  flex: 50%;
+}
+.contact_us .d .shop_detail .jay {
+  font-size: 24px;
+  font-weight: bold;
+}
+.contact_us .d .shop_detail .hrOne {
+  border: 2px solid black;
+  width: 60px;
+  border-radius: 10px;
+}
+.contact_us .d .shop_detail p {
+  color: rgb(74, 73, 73);
+}
+.contact_us .d .shop_detail i {
+  color: rgb(74, 73, 73);
+}
+.contact_us .d .shop_detail .fabInsta {
+  font-size: 28px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.contact_us .d .form {
+  margin: 20px;
+  flex: 50%;
+}
+@media (max-width: 800px) {
+  .contact_us .d .form {
+    margin-top: 30px 0px 0px;
+  }
+}
+.contact_us .d .form input {
+  margin: 10px 0px;
+  padding: 10px 0px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.contact_us .d .form textarea {
+  margin: 10px 0px;
+  padding: 10px 0px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.contact_us .d .form button {
+  width: 130px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.contact_us .d .form button i {
+  margin-left: 5px;
+  color: rgb(74, 73, 73);
 }/*# sourceMappingURL=style.css.map */
