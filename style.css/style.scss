@@ -1,6 +1,5 @@
-$dark-bg : rgb(238, 0, 0);
-$nav: rgba(126, 255, 236);
-
+$nav-clr : rgb(228, 13, 13);
+$nav-bg: rgba(126, 255, 236);
 
 * {
     margin: 0%;
@@ -14,23 +13,25 @@ $nav: rgba(126, 255, 236);
     margin: 15px;
 }
 
-.navbar-custom {
-    background-color: $nav;
+.navbar {
+    background-color: $nav-bg;
 
-    img {
-        margin-left: 60px;
-
-        @media (max-width: 500px) {
-            margin: auto;
-        }
+    .navbar-toggler-icon {
+        color: $nav-clr;
     }
 
     a {
-        color: $dark-bg;
-        font-weight: bold;
+        color: $nav-clr;
 
         &:hover {
-            color: rgb(45, 166, 48);
+            color: rgb(255, 166, 0);
+            font-size: 21px;
+        }
+    }
+
+    .nav-item {
+        .active {
+            font-weight: bold;
         }
     }
 }
@@ -69,7 +70,7 @@ $nav: rgba(126, 255, 236);
 
             p {
                 font-size: 20px;
-                color: $dark-bg;
+                color: $nav-clr;
             }
         }
     }
@@ -399,14 +400,15 @@ footer {
 
 .contact_us {
     margin: 30px 150px 60px;
-    
+
     @media (max-width: 1200px) {
         margin: 30px 50px 60px;
     }
+
     @media (max-width: 500px) {
         margin: 30px 20px 60px;
     }
-    
+
     .con {
         text-align: center;
         font-size: 30px;
@@ -422,14 +424,17 @@ footer {
 
     .d {
         display: flex;
+
         @media (max-width: 800px) {
-            flex-wrap: wrap;;
+            flex-wrap: wrap;
+            ;
         }
-        
-        
+
+
         .shop_detail {
             margin: 20px;
             flex: 50%;
+
             .jay {
                 font-size: 24px;
                 font-weight: bold;
@@ -460,7 +465,7 @@ footer {
         .form {
             margin: 20px;
             flex: 50%;
-            
+
             @media (max-width: 800px) {
                 margin-top: 30px 0px 0px;
             }

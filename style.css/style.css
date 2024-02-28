@@ -10,23 +10,21 @@
   margin: 15px;
 }
 
-.navbar-custom {
+.navbar {
   background-color: rgb(126, 255, 236);
 }
-.navbar-custom img {
-  margin-left: 60px;
+.navbar .navbar-toggler-icon {
+  color: rgb(228, 13, 13);
 }
-@media (max-width: 500px) {
-  .navbar-custom img {
-    margin: auto;
-  }
+.navbar a {
+  color: rgb(228, 13, 13);
 }
-.navbar-custom a {
-  color: rgb(238, 0, 0);
+.navbar a:hover {
+  color: rgb(255, 166, 0);
+  font-size: 21px;
+}
+.navbar .nav-item .active {
   font-weight: bold;
-}
-.navbar-custom a:hover {
-  color: rgb(45, 166, 48);
 }
 
 .fonelist {
@@ -61,7 +59,7 @@
 }
 .fonelist .container-fluid .col-md-2 p {
   font-size: 20px;
-  color: rgb(238, 0, 0);
+  color: rgb(228, 13, 13);
 }
 
 .newarrivial {

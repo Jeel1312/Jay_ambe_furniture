@@ -17,39 +17,37 @@
 <body>
 
     <!-- navbar -->
-    <header id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-custom">
+    <header>
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand"><img src="https://www.jayambefurniture.co.in/img/logo.png"
-                        id="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand"><img src="https://www.jayambefurniture.co.in/img/logo.png" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
                 </button>
-                <div id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                 <li><a class="dropdown-item" href="./products.html">All Products</a></li>
                                 <li><a class="dropdown-item" href="products.html#Sofa">Sofa</a></li>
                                 <li><a class="dropdown-item" href="products.html#Bed">Bed</a></li>
                                 <li><a class="dropdown-item" href="products.html#Dining">Dining</a></li>
                                 <li><a class="dropdown-item" href="products.html#Kitchen">Kitchen</a></li>
-                                <li><a class="dropdown-item" href="products.html#Center_Table">Center Table</a></li>
+                                <li><a class="dropdown-item" href="products.html#Center Table">Center Table</a></li>
                                 <li><a class="dropdown-item" href="products.html#Mattresess">Mattresess</a></li>
                                 <li><a class="dropdown-item" href="products.html#Cupboards">Cupboards</a></li>
                                 <li><a class="dropdown-item" href="products.html#Recliners">Recliners</a></li>
                                 <li><a class="dropdown-item" href="products.html#Seating">Seating</a></li>
-                                <li><a class="dropdown-item" href="products.html#Office_Chair">Office Chair</a></li>
-                                <li><a class="dropdown-item" href="products.html#Office_Table">Office Table</a></li>
+                                <li><a class="dropdown-item" href="products.html#Office Chair">Office Chair</a></li>
+                                <li><a class="dropdown-item" href="products.html#Office Table">Office Table</a></li>
                                 <li><a class="dropdown-item" href="products.html#Decor">Decor</a></li>
                             </ul>
                         </li>
@@ -61,18 +59,18 @@
                         </li>
                     </ul>
 
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">Search</button>
+                    </form>
                 </div>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-danger" type="submit">Search</button>
-                </form>
             </div>
         </nav>
     </header>
-    
+
 
     <!-- furniture sections -->
-    
+
     <section class="sections" id="Sofa">
         <p>Sofa</p>
         <hr>
@@ -108,7 +106,7 @@
         <img src="./images/furniture/bed/7.jpg" alt="">
         <img src="./images/furniture/bed/8.jpg" alt="">
     </section>
-    
+
     <section class="sections" id="Dining">
         <p>Dining</p>
         <hr>
@@ -120,7 +118,7 @@
         <img src="./images/furniture/dining/6.jpg" alt="">
         <img src="./images/furniture/dining/7.jpg" alt="">
     </section>
-    
+
     <section class="sections" id="Kitchen">
         <p>Kitchen</p>
         <hr>
@@ -131,7 +129,7 @@
         <img src="./images/furniture/kitchen/5.jpg" alt="">
         <img src="./images/furniture/kitchen/6.jpg" alt="">
     </section>
-    
+
     <section class="sections" id="Center_Table">
         <p>Center Table</p>
         <hr>
@@ -145,7 +143,7 @@
         <img src="./images/furniture/center table/8.jpg" alt="">
         <img src="./images/furniture/center table/9.jpg" alt="">
     </section>
-    
+
     <section class="sections" id="Mattresess">
         <p>Mattresess</p>
         <hr>
@@ -162,7 +160,7 @@
         <img src="./images/furniture/mattresess/11.jpg" alt="">
         <img src="./images/furniture/mattresess/12.jpg" alt="">
     </section>
-    
+
     <section class="sections" id="Cupboards">
         <p>Cupboards</p>
         <hr>
@@ -172,7 +170,7 @@
         <img src="./images/furniture/cupboards/4.jpg" alt="">
         <img src="./images/furniture/cupboards/5.jpg" alt="">
     </section>
-    
+
     <section class="sections" id="Recliners">
         <p>Recliners</p>
         <hr>
@@ -182,9 +180,9 @@
         <img src="./images/furniture/recliners/4.jpeg" alt="">
         <img src="./images/furniture/recliners/5.jpeg" alt="">
         <img src="./images/furniture/recliners/6.jpeg" alt="">
-        
+
     </section>
-    
+
     <section class="sections" id="Seating">
         <p>Seating</p>
         <hr>
@@ -194,7 +192,7 @@
         <img src="./images/furniture/seating/4.jpg" alt="">
         <img src="./images/furniture/seating/5.jpg" alt="">
     </section>
-    
+
     <section class="sections" id="Office_Chair">
         <p>Office Chair</p>
         <hr>
@@ -204,7 +202,7 @@
         <img src="./images/furniture/office chair/4.jpg" alt="">
         <img src="./images/furniture/office chair/5.jpg" alt="">
     </section>
-    
+
     <section class="sections" id="Office_Table">
         <p>Office Table</p>
         <hr>
@@ -214,7 +212,7 @@
         <img src="./images/furniture/office table/4.jpg" alt="">
         <img src="./images/furniture/office table/5.jpg" alt="">
     </section>
-    
+
     <section class="sections" id="Decor">
         <p>Decor</p>
         <hr>
@@ -257,8 +255,10 @@
                     Nagar, Ahmedabad- 380024, Gujarat, India.</p>
                 <p><i class="fa fa-phone"></i> +91 78741 86859</p>
                 <p><i class="fa fa-envelope"></i> info@jayambefurniture.co.in</p>
-                <a href="https://www.facebook.com/JAF.JayAmbeFurniture/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
-                <a href="https://www.instagram.com/jayambefurniture/?hl=en" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+                <a href="https://www.facebook.com/JAF.JayAmbeFurniture/" target="_blank"><i
+                        class="fa fa-facebook fa-lg"></i></a>
+                <a href="https://www.instagram.com/jayambefurniture/?hl=en" target="_blank"><i
+                        class="fa fa-instagram fa-lg"></i></a>
             </div>
         </div>
         <div class="map">
