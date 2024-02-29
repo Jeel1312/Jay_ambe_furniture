@@ -169,7 +169,7 @@
 }
 
 .review {
-  background-color: rgb(100, 100, 100);
+  background: url("https://i.ibb.co/PTJDkgb/testimonials.jpg");
   margin-top: 20px;
 }
 .review p {
@@ -193,9 +193,6 @@
 
 .carousel {
   text-align: center;
-}
-.carousel .carousel-item {
-  background-color: rgb(100, 100, 100);
 }
 .carousel img {
   width: 300px;
