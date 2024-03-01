@@ -7,7 +7,7 @@
 
 // furniture page //
 
-![screencapture-127-0-0-1-5500-products-html-2024-02-28-13_38_57 (1)](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/86c6dd4a-ba40-4a5c-9d4c-aac4262fe501)
+![screencapture-127-0-0-1-5500-products-html-2024-03-01-15_41_36](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/2e5d275a-c329-40ad-9ec9-7b16f213ccfb)
 
 // about page //
 
@@ -15,4 +15,5 @@
 
 // contact us //
 
-![screencapture-127-0-0-1-5500-contact-html-2024-02-28-13_41_03](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/75a0d6aa-0255-427d-bb38-847743bc4ded)
+![screencapture-127-0-0-1-5500-contact-html-2024-03-01-15_47_00](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/a127d507-5b04-4982-86ed-3b8e40e4d3ad)
+
