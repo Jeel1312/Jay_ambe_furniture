@@ -295,13 +295,13 @@ footer {
 .sections {
     padding: 50px 50px 10px;
     text-align: center;
-
+    
     p {
         text-align: center;
         font-size: 30px;
         font-weight: bold;
     }
-
+    
     hr {
         border: 2px solid red;
         margin: auto;
@@ -309,12 +309,13 @@ footer {
         margin-bottom: 30px;
         border-radius: 10px;
     }
-
+    
     img {
         margin: 20px;
         border: 1px solid gray;
         width: 350px;
         height: 250px;
+        box-shadow: 0px 5px 10px black;
     }
 }
 
@@ -324,46 +325,46 @@ footer {
 
 .about {
     margin: 30px 0px 50px;
-
+    
     .new {
         text-align: center;
         font-size: 30px;
         font-weight: bold;
     }
-
+    
     hr {
         border: 2px solid red;
         margin: auto;
         width: 120px;
         border-radius: 10px;
     }
-
+    
     .d {
         margin-top: 30px;
         display: flex;
         text-align: center;
-
+        
         @media (max-width: 1050px) {
             flex-wrap: wrap;
         }
-
+        
         .youtube {
             flex: 50%;
             padding: 20px;
             padding-left: 80px;
-
+            
             @media (max-width: 1050px) {
                 padding: 20px;
                 width: 60vh;
             }
-
+            
             @media (max-width: 650px) {
                 iframe {
                     width: 60vh;
                     height: 300px;
                 }
             }
-
+            
             @media (max-width: 380px) {
                 iframe {
                     width: 50vh;
@@ -371,22 +372,22 @@ footer {
                 }
             }
         }
-
-
+        
+        
         .detail {
             flex: 60%;
             padding: 0px 80px 0px 20px;
-
+            
             p {
-
+                
                 margin-top: 30px;
                 text-align: justify;
             }
-
+            
             @media (max-width: 1050px) {
                 padding: 20px 100px;
             }
-
+            
             @media (max-width: 650px) {
                 padding: 0px 40px;
             }
@@ -396,11 +397,15 @@ footer {
 
 .contact_us {
     margin: 30px 150px 60px;
-
+    background-color: rgba(126, 255, 236, 0.3);
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px black;
+    
+    
     @media (max-width: 1200px) {
         margin: 30px 50px 60px;
     }
-
+    
     @media (max-width: 500px) {
         margin: 30px 20px 60px;
     }
@@ -409,6 +414,7 @@ footer {
         text-align: center;
         font-size: 30px;
         font-weight: bold;
+        padding-top: 20px;
     }
 
     .hr {
@@ -468,18 +474,20 @@ footer {
 
             input {
                 margin: 10px 0px;
-                padding: 10px 0px;
+                padding: 10px 10px;
                 width: 100%;
                 border: none;
-                border-bottom: 1px solid black;
+                border: 1px solid black;
+                border-radius: 10px;
             }
-
+            
             textarea {
                 margin: 10px 0px;
-                padding: 10px 0px;
+                padding: 10px 10px;
                 width: 100%;
                 border: none;
-                border-bottom: 1px solid black;
+                border: 1px solid black;
+                border-radius: 10px;
             }
 
             button {
@@ -487,11 +495,14 @@ footer {
                 padding: 10px;
                 background-color: white;
                 border: 1px solid black;
-                border-radius: 5px;
+                border-radius: 10px;
 
                 i {
                     margin-left: 5px;
                     color: rgb(74, 73, 73);
+                }
+                &:hover {
+                    background-color: $nav-bg;
                 }
             }
 
