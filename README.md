@@ -3,7 +3,7 @@
 
 // intex page //
 
-![screencapture-127-0-0-1-5500-index-html-2024-02-28-13_37_26](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/78ccd1f9-41a0-40c4-9c47-992a193cd0ae)
+![screencapture-127-0-0-1-5500-index-html202024-02-29-11_12_01](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/f5b20d8a-5d73-4ddf-a130-873b53c15336)
 
 // furniture page //
 
