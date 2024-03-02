@@ -11,7 +11,7 @@
 }
 
 .navbar {
-  background-color: rgb(126, 255, 236);
+  background-color: rgb(251, 249, 249);
 }
 .navbar .navbar-toggler-icon {
   color: rgb(228, 13, 13);
@@ -435,5 +435,5 @@ footer .map iframe {
   color: rgb(74, 73, 73);
 }
 .contact_us .d .form button:hover {
-  background-color: rgb(126, 255, 236);
+  background-color: rgb(251, 249, 249);
 }/*# sourceMappingURL=style.css.map */
