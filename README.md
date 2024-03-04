@@ -3,17 +3,17 @@
 
 // intex page //
 
-![screencapture-127-0-0-1-5500-index-html202024-02-29-11_12_01](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/f5b20d8a-5d73-4ddf-a130-873b53c15336)
+![screencapture-127-0-0-1-5500-index-html-2024-03-04-17_06_50](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/b248a3d6-de85-443b-a4e6-6ad8e7a73cee)
 
 // furniture page //
 
-![screencapture-127-0-0-1-5500-products-html-2024-03-01-15_41_36](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/2e5d275a-c329-40ad-9ec9-7b16f213ccfb)
+![screencapture-127-0-0-1-5500-products-html-2024-03-04-17_07_17](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/f216d069-b794-4b4b-ad5c-674e583bc6f0)
 
 // about page //
 
-![screencapture-127-0-0-1-5500-about-html-2024-02-28-13_39_37](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/956287f9-3c3b-4bf2-b7c5-8b1eff2636b4)
+![screencapture-127-0-0-1-5500-about-html-2024-03-04-17_07_54](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/3b391729-cd7d-4bab-bd94-93267029c9d8)
 
 // contact us //
 
-![screencapture-127-0-0-1-5500-contact-html-2024-03-01-15_47_00](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/a127d507-5b04-4982-86ed-3b8e40e4d3ad)
+![screencapture-127-0-0-1-5500-contact-html-2024-03-04-17_09_18](https://github.com/Jeel1312/37_Jay-ambe-furniture-html-css-bootstrap/assets/153166867/0cbd975d-5e51-4afc-a236-bd79b9ea5dc5)
 
