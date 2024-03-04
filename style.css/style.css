@@ -11,7 +11,7 @@
 }
 
 .navbar {
-  background-color: rgb(251, 249, 249);
+  background-color: rgb(255, 255, 255);
 }
 .navbar .navbar-toggler-icon {
   color: rgb(228, 13, 13);
@@ -340,9 +340,7 @@ footer .map iframe {
 
 .contact_us {
   margin: 30px 150px 60px;
-  background-color: rgba(126, 255, 236, 0.3);
   border-radius: 20px;
-  box-shadow: 0px 5px 10px black;
 }
 @media (max-width: 1200px) {
   .contact_us {
@@ -435,5 +433,6 @@ footer .map iframe {
   color: rgb(74, 73, 73);
 }
 .contact_us .d .form button:hover {
-  background-color: rgb(251, 249, 249);
+  background-color: rgb(228, 13, 13);
+  color: white;
 }/*# sourceMappingURL=style.css.map */
