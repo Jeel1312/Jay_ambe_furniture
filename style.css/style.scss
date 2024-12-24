@@ -1,11 +1,25 @@
-$nav-clr : rgb(228, 13, 13);
-$nav-bg: rgb(255, 255, 255);
+// colours
+$nav-clr : rgb(255, 25, 0);
+$nav-bg: rgb(0, 0, 0);
+$btn: rgb(249 210 100);
+$body-bg: rgb(22, 21, 21);
+
+// fonts
+$hearding: "Bitter", serif;
+;
+
+
 
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#body {
+    background-color: rgba(0, 0, 0, 0.903);
 }
 
 .nav-item {
@@ -20,19 +34,35 @@ $nav-bg: rgb(255, 255, 255);
         color: $nav-clr;
     }
 
+    #logo {
+        width: 250px;
+        height: 60px;
+    }
+
     a {
         color: $nav-clr;
+        font-size: 20px;
 
         &:hover {
             color: rgb(255, 166, 0);
-            font-size: 21px;
+            font-size: 22px;
         }
     }
 
     .nav-item {
         .active {
-            font-weight: bold;
+            font-weight: bolder;
         }
+    }
+
+    .toggler {
+        color: white;
+    }
+
+    .searchbtn {
+        color: $btn;
+        border: 1px solid $btn;
+        border-radius: 7px;
     }
 }
 
@@ -41,8 +71,10 @@ $nav-bg: rgb(255, 255, 255);
     margin: 50px 100px;
 
     .our {
-        font-size: 30px;
         font-weight: bold;
+        font-size: 32px;
+        font-family: $hearding;
+        color: $btn;
     }
 
     hr {
@@ -57,7 +89,8 @@ $nav-bg: rgb(255, 255, 255);
 
         .col-md-2 {
             padding: 10px;
-            border: 1px solid rgba(126, 255, 236, 0.679);
+            border: 1px solid rgba(0, 255, 217, 0.679);
+            background-color: rgba(255, 255, 255, 0.978);
 
             img {
                 padding: 10px;
@@ -114,8 +147,10 @@ $nav-bg: rgb(255, 255, 255);
 
         .new {
             text-align: center;
-            font-size: 30px;
             font-weight: bold;
+            font-size: 32px;
+            font-family: $hearding;
+            color: $btn;
         }
 
         hr {
@@ -144,8 +179,10 @@ $nav-bg: rgb(255, 255, 255);
 .beautiful {
     .products {
         text-align: center;
-        font-size: 30px;
         font-weight: bold;
+        font-size: 32px;
+        font-family: $hearding;
+        color: $btn;
     }
 
     hr {
@@ -202,9 +239,10 @@ $nav-bg: rgb(255, 255, 255);
     p {
         padding-top: 20px;
         text-align: center;
-        font-size: 30px;
         font-weight: bold;
-        color: white;
+        font-size: 32px;
+        font-family: $hearding;
+        color: $btn;
     }
 
     hr {
@@ -295,13 +333,15 @@ footer {
 .sections {
     padding: 50px 50px 10px;
     text-align: center;
-    
+
     p {
         text-align: center;
-        font-size: 30px;
         font-weight: bold;
+        font-size: 32px;
+        font-family: $hearding;
+        color: $btn;
     }
-    
+
     hr {
         border: 2px solid red;
         margin: auto;
@@ -309,13 +349,13 @@ footer {
         margin-bottom: 30px;
         border-radius: 10px;
     }
-    
+
     img {
         margin: 20px;
         border: 1px solid gray;
         width: 350px;
         height: 250px;
-        box-shadow: 0px 5px 10px black;
+        box-shadow: 0px 3px 10px rgb(182, 181, 181);
     }
 }
 
@@ -325,46 +365,48 @@ footer {
 
 .about {
     margin: 30px 0px 50px;
-    
+
     .new {
         text-align: center;
-        font-size: 30px;
         font-weight: bold;
+        font-size: 32px;
+        font-family: $hearding;
+        color: $btn;
     }
-    
+
     hr {
         border: 2px solid red;
         margin: auto;
         width: 120px;
         border-radius: 10px;
     }
-    
+
     .d {
         margin-top: 30px;
         display: flex;
         text-align: center;
-        
+
         @media (max-width: 1050px) {
             flex-wrap: wrap;
         }
-        
+
         .youtube {
             flex: 50%;
             padding: 20px;
             padding-left: 80px;
-            
+
             @media (max-width: 1050px) {
                 padding: 20px;
                 width: 60vh;
             }
-            
+
             @media (max-width: 650px) {
                 iframe {
                     width: 60vh;
                     height: 300px;
                 }
             }
-            
+
             @media (max-width: 380px) {
                 iframe {
                     width: 50vh;
@@ -372,22 +414,22 @@ footer {
                 }
             }
         }
-        
-        
+
+
         .detail {
             flex: 60%;
             padding: 0px 80px 0px 20px;
-            
+
             p {
-                
+
                 margin-top: 30px;
                 text-align: justify;
             }
-            
+
             @media (max-width: 1050px) {
                 padding: 20px 100px;
             }
-            
+
             @media (max-width: 650px) {
                 padding: 0px 40px;
             }
@@ -398,19 +440,21 @@ footer {
 .contact_us {
     margin: 30px 150px 60px;
     border-radius: 20px;
-    
+
     @media (max-width: 1200px) {
         margin: 30px 50px 60px;
     }
-    
+
     @media (max-width: 500px) {
         margin: 30px 20px 60px;
     }
 
     .con {
         text-align: center;
-        font-size: 30px;
         font-weight: bold;
+        font-size: 32px;
+        font-family: $hearding;
+        color: $btn;
         padding-top: 20px;
     }
 
@@ -426,7 +470,6 @@ footer {
 
         @media (max-width: 800px) {
             flex-wrap: wrap;
-            ;
         }
 
 
@@ -446,11 +489,11 @@ footer {
             }
 
             p {
-                color: rgb(74, 73, 73);
+                color: rgb(205, 205, 205);
             }
 
             i {
-                color: rgb(74, 73, 73);
+                color: rgb(205, 205, 205);
             }
 
             .fabInsta {
@@ -477,7 +520,7 @@ footer {
                 border: 1px solid black;
                 border-radius: 10px;
             }
-            
+
             textarea {
                 margin: 10px 0px;
                 padding: 10px 10px;
@@ -490,14 +533,16 @@ footer {
             button {
                 width: 130px;
                 padding: 10px;
-                background-color: white;
-                border: 1px solid black;
+                color: $btn;
+                background-color: $body-bg ;
+                border: 1px solid $btn;
                 border-radius: 10px;
 
                 i {
                     margin-left: 5px;
-                    color: rgb(74, 73, 73);
+                    color: $btn;
                 }
+
                 &:hover {
                     background-color: $nav-clr;
                     color: white;

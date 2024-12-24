@@ -2,7 +2,12 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  color: black;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#body {
+  background-color: rgba(0, 0, 0, 0.903);
 }
 
 .nav-item {
@@ -11,20 +16,33 @@
 }
 
 .navbar {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 .navbar .navbar-toggler-icon {
-  color: rgb(228, 13, 13);
+  color: rgb(255, 25, 0);
+}
+.navbar #logo {
+  width: 250px;
+  height: 60px;
 }
 .navbar a {
-  color: rgb(228, 13, 13);
+  color: rgb(255, 25, 0);
+  font-size: 20px;
 }
 .navbar a:hover {
   color: rgb(255, 166, 0);
-  font-size: 21px;
+  font-size: 22px;
 }
 .navbar .nav-item .active {
-  font-weight: bold;
+  font-weight: bolder;
+}
+.navbar .toggler {
+  color: white;
+}
+.navbar .searchbtn {
+  color: rgb(249, 210, 100);
+  border: 1px solid rgb(249, 210, 100);
+  border-radius: 7px;
 }
 
 .fonelist {
@@ -32,8 +50,10 @@
   margin: 50px 100px;
 }
 .fonelist .our {
-  font-size: 30px;
   font-weight: bold;
+  font-size: 32px;
+  font-family: "Bitter", serif;
+  color: rgb(249, 210, 100);
 }
 .fonelist hr {
   border: 2px solid red;
@@ -46,7 +66,8 @@
 }
 .fonelist .container-fluid .col-md-2 {
   padding: 10px;
-  border: 1px solid rgba(126, 255, 236, 0.679);
+  border: 1px solid rgba(0, 255, 217, 0.679);
+  background-color: rgba(255, 255, 255, 0.978);
 }
 .fonelist .container-fluid .col-md-2 img {
   padding: 10px;
@@ -59,7 +80,7 @@
 }
 .fonelist .container-fluid .col-md-2 p {
   font-size: 20px;
-  color: rgb(228, 13, 13);
+  color: rgb(255, 25, 0);
 }
 
 .newarrivial {
@@ -99,8 +120,10 @@
 }
 .newarrivial .detail .new {
   text-align: center;
-  font-size: 30px;
   font-weight: bold;
+  font-size: 32px;
+  font-family: "Bitter", serif;
+  color: rgb(249, 210, 100);
 }
 .newarrivial .detail hr {
   border: 2px solid red;
@@ -126,8 +149,10 @@
 
 .beautiful .products {
   text-align: center;
-  font-size: 30px;
   font-weight: bold;
+  font-size: 32px;
+  font-family: "Bitter", serif;
+  color: rgb(249, 210, 100);
 }
 .beautiful hr {
   border: 2px solid red;
@@ -175,9 +200,10 @@
 .review p {
   padding-top: 20px;
   text-align: center;
-  font-size: 30px;
   font-weight: bold;
-  color: white;
+  font-size: 32px;
+  font-family: "Bitter", serif;
+  color: rgb(249, 210, 100);
 }
 .review hr {
   border: 2px solid red;
@@ -254,8 +280,10 @@ footer .map iframe {
 }
 .sections p {
   text-align: center;
-  font-size: 30px;
   font-weight: bold;
+  font-size: 32px;
+  font-family: "Bitter", serif;
+  color: rgb(249, 210, 100);
 }
 .sections hr {
   border: 2px solid red;
@@ -269,7 +297,7 @@ footer .map iframe {
   border: 1px solid gray;
   width: 350px;
   height: 250px;
-  box-shadow: 0px 5px 10px black;
+  box-shadow: 0px 3px 10px rgb(182, 181, 181);
 }
 
 .about {
@@ -277,8 +305,10 @@ footer .map iframe {
 }
 .about .new {
   text-align: center;
-  font-size: 30px;
   font-weight: bold;
+  font-size: 32px;
+  font-family: "Bitter", serif;
+  color: rgb(249, 210, 100);
 }
 .about hr {
   border: 2px solid red;
@@ -354,8 +384,10 @@ footer .map iframe {
 }
 .contact_us .con {
   text-align: center;
-  font-size: 30px;
   font-weight: bold;
+  font-size: 32px;
+  font-family: "Bitter", serif;
+  color: rgb(249, 210, 100);
   padding-top: 20px;
 }
 .contact_us .hr {
@@ -386,10 +418,10 @@ footer .map iframe {
   border-radius: 10px;
 }
 .contact_us .d .shop_detail p {
-  color: rgb(74, 73, 73);
+  color: rgb(205, 205, 205);
 }
 .contact_us .d .shop_detail i {
-  color: rgb(74, 73, 73);
+  color: rgb(205, 205, 205);
 }
 .contact_us .d .shop_detail .fabInsta {
   font-size: 28px;
@@ -424,15 +456,16 @@ footer .map iframe {
 .contact_us .d .form button {
   width: 130px;
   padding: 10px;
-  background-color: white;
-  border: 1px solid black;
+  color: rgb(249, 210, 100);
+  background-color: rgb(22, 21, 21);
+  border: 1px solid rgb(249, 210, 100);
   border-radius: 10px;
 }
 .contact_us .d .form button i {
   margin-left: 5px;
-  color: rgb(74, 73, 73);
+  color: rgb(249, 210, 100);
 }
 .contact_us .d .form button:hover {
-  background-color: rgb(228, 13, 13);
+  background-color: rgb(255, 25, 0);
   color: white;
 }/*# sourceMappingURL=style.css.map */
