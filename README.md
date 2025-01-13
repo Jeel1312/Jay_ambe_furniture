@@ -1,5 +1,5 @@
 # Jay ambe furniture
-Designed a responsive furniture website, "Jay Ambe," using HTML, CSS, and Bootstrap and JavaScript. Created a visually appealing layout showcasing furniture products with hover effects and pricing details.Developed a navigation bar for easy browsing and a contact section with a form for inquiries. Focused on responsive design to ensure compatibility across all devices.
+Designed a responsive furniture website, "Jay Ambe," using HTML, SASS, CSS, and Bootstrap and JavaScript. Created a visually appealing layout showcasing furniture products with hover effects and pricing details.Developed a navigation bar for easy browsing and a contact section with a form for inquiries. Focused on responsive design to ensure compatibility across all devices.
  
 // index page //
 
