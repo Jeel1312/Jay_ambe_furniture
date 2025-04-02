@@ -64,21 +64,21 @@
 .fonelist .container-fluid {
   margin-top: 50px;
 }
-.fonelist .container-fluid .col-md-2 {
+.fonelist .container-fluid .listOne {
   padding: 10px;
   border: 1px solid rgba(0, 255, 217, 0.679);
   background-color: rgba(255, 255, 255, 0.978);
 }
-.fonelist .container-fluid .col-md-2 img {
+.fonelist .container-fluid .listOne img {
   padding: 10px;
   width: 100px;
 }
 @media (min-width: 768px) and (max-width: 866px) {
-  .fonelist .container-fluid .col-md-2 img {
+  .fonelist .container-fluid .listOne img {
     width: 80px;
   }
 }
-.fonelist .container-fluid .col-md-2 p {
+.fonelist .container-fluid .listOne p {
   font-size: 20px;
   color: rgb(255, 25, 0);
 }
